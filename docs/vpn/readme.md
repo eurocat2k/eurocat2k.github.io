@@ -16,7 +16,7 @@ Then - as you probably have done many times before - you can issue the following
 
 -  At installation mode windows - when you have to choose between OpenVPN or Wireguard VPN server installatio - you select the latter.
 
--  When installer asks for default port for Wireguard, <ins>you shall pick another port numbber</ins> than Wireguard's default **51820**!!!
+-  When installer asks for default port for Wireguard, <u>you shall pick another port numbber</u> than Wireguard's default **51820**!!!
 
 -  Better to use router's DNS settings - see WAN settings on your ASUS TUF AX3000 v2 - which means (in my case) simply select your router's IP address as a DNS server.
 
