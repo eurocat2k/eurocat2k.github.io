@@ -12,7 +12,7 @@ Then - as you probably have done many times before - you can issue the following
 
 -  At DHCP reservation window you should select fixed IP address - you need to setup this feature on your own Raspberry PI device. See the docs how to achieve this.
 
--  If there os no other user installed on your Raspberry PI, then stick with user 'pi'.
+-  If there is no other user installed on your Raspberry PI, then stick with user 'pi'.
 
 -  At installation mode windows - when you have to choose between OpenVPN or Wireguard VPN server installatio - you select the latter.
 
@@ -25,13 +25,11 @@ Then - as you probably have done many times before - you can issue the following
 -  Get newly created - or any of the existing - client's config by calling ```pivpn -qr <config_name>``` - where *<config_name>* is one of the created client's config on your Raspberry PI 4.
 -  Add your client config to your device - where Wireguard client installed: e.g. IOS device or Android device etc. (*See the appropriate documentation about client setup.*)
 
-At this point your Raspberry PI 4 should be ready to handle Wireguard VPN client's requests. Let's see how to pass VPN clients through the ASUS router to reach VPN server behind the private address space.
-
 ## Setup port forwarding on ASUS router
 
-
 After all at this point the VPN server should be up and running. Let's setup the port forwarding on the ASUS TUF AX3000 v2.
-
-## Port forwarding on the ASUS router
 You need to login to the router's WEB GUI first. Then navigate to the **WAN** page where you can setup the port forwarding feature.
+
+When you're on the **WAN** subpage, then you need to select the _curl -L https://install.pivpn.io | bashirtual Server / Port Forwarding_ tab to navigate the setup page.
+There you should hit the \x2b sign.
 
