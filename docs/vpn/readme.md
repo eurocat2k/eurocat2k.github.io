@@ -5,4 +5,7 @@ In this little guide I will present my solution to setup Raspberry PI 4 hosted V
 - ASUS TUF AX3000 v2 wifi router - *firmware updated to the latest - check device's web site at ASUS home*
 
 ## Prepare Raspberry PI 4
-Before setup the **pivpn** package on your Raspberry PI 4, it's advised to refresh the PI using ```apt update``` and ```apt upgrade``` - by the way the **pivpn** installation process will do it as well.
+Before setup the **pivpn** package on your Raspberry PI 4, it's advised to refresh the PI using ```apt update -y``` and ```apt upgrade -y``` - by the way the **pivpn** installation process will execute it as well.
+Then - as you probably have done many times before - you can issue the following command ```curl -L https://install.pivpn.io | bash``` and follow the instructions on the terminal to install the VPN server - in this case the Wireguard VPN server - on the Raspberry PI 4.
+
+  Hints:
