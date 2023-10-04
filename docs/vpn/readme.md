@@ -10,4 +10,5 @@ Then - as you probably have done many times before - you can issue the following
 
     Hints:
       -  At DHCP reservation window you should select fixed IP address - you need to setup this feature on your own Raspberry PI device. See the docs how to achieve this.
-      -  If there os no other user installed on your Raspberry PI, then stick with user '**pi**'
+      
+        -  If there os no other user installed on your Raspberry PI, then stick with user '**pi**'
