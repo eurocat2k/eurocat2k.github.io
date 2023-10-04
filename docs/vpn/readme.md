@@ -31,5 +31,8 @@ After all at this point the VPN server should be up and running. Let's setup the
 You need to login to the router's WEB GUI first. Then navigate to the **WAN** page where you can setup the port forwarding feature.
 
 When you're on the **WAN** subpage, then you need to select the _curl -L https://install.pivpn.io | bashirtual Server / Port Forwarding_ tab to navigate the setup page.
-There you should hit the &plus; sign.
+There you should hit the &plus; sign. Then setup the port forwarding as you previously configured on Raspberry PI Wireguard VPN - apply the same port number in the source and destination port fields as you defined earlier during the Wireguard setup.
+
+  Note! 
+    **Do not use Wireguard's default port number!!!!**
 
