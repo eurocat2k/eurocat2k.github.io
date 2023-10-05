@@ -35,5 +35,5 @@ There you should hit the &plus; sign. Then setup the port forwarding as you prev
 
 > **Note!**
 > 
-> <span style="color: orange;">Do not use Wireguard's default port number!!!!</span>
+> <span style="color: red;font-weight:600;">Do not use Wireguard's default port number!!!!</span>
 
