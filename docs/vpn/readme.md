@@ -28,7 +28,7 @@ Then - as you probably have done many times before - you can issue the following
 ## Setup port forwarding on ASUS router
 
 After all at this point the VPN server should be up and running. Let's setup the port forwarding on the ASUS TUF AX3000 v2.
-You need to login to the router's WEB GUI first. Then navigate to the **WAN** page where you can setup the port forwarding feature.
+You need to login to the router's WEB GUI first. Then navigate to the **WAN** subpage where you can setup the port forwarding feature.
 
 When you're on the **WAN** subpage, then you need to select the _Virtual Server / Port Forwarding_ tab to navigate the setup page.
 There you should hit the &plus; sign. Then setup the port forwarding as you previously configured on Raspberry PI Wireguard VPN - apply the same port number in the source and destination port fields as you defined earlier during the Wireguard setup.
